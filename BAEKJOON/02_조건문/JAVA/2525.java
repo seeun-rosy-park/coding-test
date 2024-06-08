@@ -8,6 +8,7 @@ public class Main{
 		int hour = sc.nextInt();
 		int minute = sc.nextInt();
 		int cookingMinute = sc.nextInt();
+		sc.close();
 
 		if (minute + cookingMinute >= 60) {
 			// calculate hour

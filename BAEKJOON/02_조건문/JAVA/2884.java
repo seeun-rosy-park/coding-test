@@ -7,6 +7,7 @@ public class Main{
 		Scanner sc = new Scanner(System.in);
 		int hour = sc.nextInt();
 		int minute = sc.nextInt();
+		sc.close();
 		int ealryMinute = 45;
 
 		if (minute < ealryMinute) {

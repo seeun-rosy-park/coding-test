@@ -5,6 +5,7 @@ public class Main{
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
 		int y = sc.nextInt();
+		sc.close();
 		int quadrant = 0;
 
 		if (x > 0) {

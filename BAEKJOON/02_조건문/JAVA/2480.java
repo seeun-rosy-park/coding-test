@@ -8,6 +8,7 @@ public class Main{
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();
 		int num3 = sc.nextInt();
+		sc.close();
 		int sameNum;
 		int prizeMoney = 0;
 
